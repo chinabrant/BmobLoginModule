@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BmobLoginModule_Example' do
+  pod 'BmobLoginModule', :path => '../'
+
+  target 'BmobLoginModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
