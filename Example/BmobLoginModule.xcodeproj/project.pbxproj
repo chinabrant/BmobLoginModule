@@ -24,6 +24,11 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		94295B711E6D7050003ED523 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 94295B6D1E6D7050003ED523 /* .gitkeep */; };
+		94295B721E6D7050003ED523 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 94295B6F1E6D7050003ED523 /* .gitkeep */; };
+		94295B731E6D7050003ED523 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 94295B701E6D7050003ED523 /* ReplaceMe.m */; };
+		94295B761E6D708F003ED523 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94295B751E6D708F003ED523 /* LoginViewController.m */; };
+		94295B781E6D70B4003ED523 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94295B771E6D70B4003ED523 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		019F664ED08AC274F9892078 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		019F664ED08AC274F9892078 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		164DE09142C4B9CC083215EF /* Pods-BmobLoginModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmobLoginModule_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BmobLoginModule_Tests/Pods-BmobLoginModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		34658F1D9D46D351D49D038C /* Pods-BmobLoginModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmobLoginModule_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BmobLoginModule_Example/Pods-BmobLoginModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3DDE0CF37AA29026FCCC3156 /* Pods-BmobLoginModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmobLoginModule_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BmobLoginModule_Tests/Pods-BmobLoginModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,9 +66,15 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		80168101517928FF6BC6F2B9 /* BmobLoginModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BmobLoginModule.podspec; path = ../BmobLoginModule.podspec; sourceTree = "<group>"; };
+		80168101517928FF6BC6F2B9 /* BmobLoginModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BmobLoginModule.podspec; path = ../BmobLoginModule.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BFDEA840DEDC46525065D959 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		94295B6D1E6D7050003ED523 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		94295B6F1E6D7050003ED523 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		94295B701E6D7050003ED523 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		94295B741E6D708F003ED523 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		94295B751E6D708F003ED523 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		94295B771E6D70B4003ED523 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		BFDEA840DEDC46525065D959 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DF73FA58098E9B67031B9577 /* Pods_BmobLoginModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BmobLoginModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E104E9C466596C2FEB1A6953 /* Pods_BmobLoginModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BmobLoginModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA253DE1B03BD07221C70CC /* Pods-BmobLoginModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BmobLoginModule_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BmobLoginModule_Example/Pods-BmobLoginModule_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +120,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				94295B6B1E6D7050003ED523 /* BmobLoginModule */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for BmobLoginModule */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -196,6 +208,36 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		94295B6B1E6D7050003ED523 /* BmobLoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				94295B6C1E6D7050003ED523 /* Assets */,
+				94295B6E1E6D7050003ED523 /* Classes */,
+			);
+			name = BmobLoginModule;
+			path = ../BmobLoginModule;
+			sourceTree = "<group>";
+		};
+		94295B6C1E6D7050003ED523 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				94295B6D1E6D7050003ED523 /* .gitkeep */,
+				94295B771E6D70B4003ED523 /* LoginViewController.xib */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		94295B6E1E6D7050003ED523 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				94295B6F1E6D7050003ED523 /* .gitkeep */,
+				94295B701E6D7050003ED523 /* ReplaceMe.m */,
+				94295B741E6D708F003ED523 /* LoginViewController.h */,
+				94295B751E6D708F003ED523 /* LoginViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -281,7 +323,10 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				94295B711E6D7050003ED523 /* .gitkeep in Resources */,
+				94295B721E6D7050003ED523 /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				94295B781E6D70B4003ED523 /* LoginViewController.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,9 +439,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94295B731E6D7050003ED523 /* ReplaceMe.m in Sources */,
 				6003F59E195388D20070C39A /* BRAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* BRViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				94295B761E6D708F003ED523 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

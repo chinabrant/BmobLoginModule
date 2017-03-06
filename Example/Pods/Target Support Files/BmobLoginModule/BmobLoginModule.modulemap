@@ -1,0 +1,6 @@
+framework module BmobLoginModule {
+  umbrella header "BmobLoginModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

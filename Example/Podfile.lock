@@ -1,0 +1,16 @@
+PODS:
+  - BmobLoginModule (0.1.0)
+
+DEPENDENCIES:
+  - BmobLoginModule (from `../`)
+
+EXTERNAL SOURCES:
+  BmobLoginModule:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BmobLoginModule: e92fae046f426484781f98f6c31f170d43f2b0ec
+
+PODFILE CHECKSUM: 0280db339ce31dbc2db8fc38f3f32bbf0b86e00d
+
+COCOAPODS: 1.2.0
